@@ -1,0 +1,55 @@
+<?xml version="1.0"?>
+<ArrayOfPublicationDataRow>
+  <PublicationDataRow>
+    <StoreId>1</StoreId>
+    <StoreName>France</StoreName>
+    <CategoryId>233</CategoryId>
+    <CategoryName>Quotidiens</CategoryName>
+    <PublicationId>21518797</PublicationId>
+    <PublicationName>20 Minutes Bordeaux-Aquitaine</PublicationName>
+  </PublicationDataRow>
+  <PublicationDataRow>
+    <StoreId>1</StoreId>
+    <StoreName>France</StoreName>
+    <CategoryId>233</CategoryId>
+    <CategoryName>Quotidiens</CategoryName>
+    <PublicationId>21528361</PublicationId>
+    <PublicationName>20 Minutes Edition Nationale</PublicationName>
+  </PublicationDataRow>
+  ...
+  <PublicationDataRow>
+    <StoreId>1</StoreId>
+    <StoreName>France</StoreName>
+    <CategoryId>243</CategoryId>
+    <CategoryName>Actualités</CategoryName>
+    <PublicationId>2097031</PublicationId>
+    <PublicationName>Actualité Juive</PublicationName>
+  </PublicationDataRow>
+  ...
+  <PublicationDataRow>
+    <StoreId>2</StoreId>
+    <StoreName>United Kingdom</StoreName>
+    <CategoryId>94</CategoryId>
+    <CategoryName>News</CategoryName>
+    <PublicationId>1987770</PublicationId>
+    <PublicationName>Newsweek</PublicationName>
+  </PublicationDataRow>
+  <PublicationDataRow>
+    <StoreId>2</StoreId>
+    <StoreName>United Kingdom</StoreName>
+    <CategoryId>94</CategoryId>
+    <CategoryName>News</CategoryName>
+    <PublicationId>1902287</PublicationId>
+    <PublicationName>TIME Magazine European Edition</PublicationName>
+  </PublicationDataRow>
+  ...
+  <PublicationDataRow>
+    <StoreId>2</StoreId>
+    <StoreName>United Kingdom</StoreName>
+    <CategoryId>62</CategoryId>
+    <CategoryName>Women's</CategoryName>
+    <PublicationId>1273229</PublicationId>
+    <PublicationName>Cosmopolitan UK</PublicationName>
+  </PublicationDataRow>
+  ...
+</ArrayOfPublicationDataRow>

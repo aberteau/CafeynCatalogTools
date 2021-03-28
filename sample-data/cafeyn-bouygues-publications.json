@@ -1,0 +1,80 @@
+{
+"result": [
+  {
+    "storeId": 1,
+    "name": "France",
+    "code": "fr",
+    "flag": "",
+    "categories": [
+      {
+        "name": "Quotidiens",
+        "id": 233,
+        "items": [
+          {
+            "title": "20 Minutes Bordeaux-Aquitaine",
+            "creditPrice": 0,
+            "publicationId": 21518797
+          },
+          {
+            "title": "20 Minutes Edition Nationale",
+            "creditPrice": 0,
+            "publicationId": 21528361
+          },
+          "..."
+        ]
+      },
+      {
+        "name": "Actualités",
+        "id": 243,
+        "items": [
+          {
+            "title": "Actualité Juive",
+            "creditPrice": 0,
+            "publicationId": 2097031
+          },
+          ...
+        ]
+      },
+      ...
+    ]
+  },
+  {
+    "storeId": 2,
+    "name": "United Kingdom",
+    "code": "uk",
+    "flag": "",
+    "categories": [
+      {
+        "name": "News",
+        "id": 94,
+        "items": [
+          {
+            "title": "Newsweek",
+            "creditPrice": 0,
+            "publicationId": 1987770
+          },
+          {
+            "title": "TIME Magazine European Edition",
+            "creditPrice": 0,
+            "publicationId": 1902287
+          }
+        ]
+      },
+      {
+        "name": "Women's",
+        "id": 62,
+        "items": [
+          {
+            "title": "Cosmopolitan UK",
+            "creditPrice": 0,
+            "publicationId": 1273229
+          },
+         ...
+        ]
+      },
+      ...
+    ]
+  },
+  ...
+]
+}
