@@ -1,7 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
+using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Serialization;
 using CafeynCatalogTools.Core.CafeynAPI;
 using CafeynCatalogTools.Core.CafeynAPI.Data;
 
@@ -39,6 +43,14 @@ namespace CafeynCatalogTools.Core
             IEnumerable<Store> stores = await ApiClientHelper.GetStoresAsync();
             IEnumerable<PublicationDataRow> publicationDataRows = ToPublicationDataRows(stores);
             return publicationDataRows;
+        }
+
+        public static void Serialize(IEnumerable<PublicationDataRow> publicationDataRows, string path)
+        {
+            XmlSerializer writer = new XmlSerializer(typeof(List<PublicationDataRow>));
+            FileStream fileStream = File.Create(path);
+            XmlSerializerNamespaces namespaces = new XmlSerializerNamespaces(new[] { XmlQualifiedName.Empty });
+            writer.Serialize(fileStream, publicationDataRows.ToList(), namespaces);
         }
     }
 }
